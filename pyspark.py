@@ -15,6 +15,8 @@ data = [(1, [10, None, 30, None, 50]),
         (2, [100, 200, None, 400]),
         (3, [None, 2, 3, None, 5, 6, None, 8, 9, None])]
 
+
+print("hello")
 # Create DataFrame
 df = spark.createDataFrame(data, ["id", "num"])
 
