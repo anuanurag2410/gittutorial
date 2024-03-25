@@ -6,6 +6,10 @@ spark = SparkSession.builder \
     .appName("Remove Nulls from Array") \
     .getOrCreate()
 
+
+#funtion feature added 
+
+
 # Sample data
 data = [(1, [10, None, 30, None, 50]),
         (2, [100, 200, None, 400]),
